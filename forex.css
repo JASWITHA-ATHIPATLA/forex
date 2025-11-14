@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  transform: none !important;
 }
 main {
   flex: 1;
@@ -48,7 +47,6 @@ a:hover {
     min-height: 300px;
     width: 40vw;
     height: 70vh;
-    margin-top: 10vh;
     margin-bottom: 15vh;
     border-radius: 1rem;
     background-color: rgb(218, 88, 247);
@@ -70,6 +68,7 @@ a:hover {
 .amount input{
   width: 30vw;
   height: 3em;
+  padding: 3px;
   border-radius: 5px;
   background-color:rgb(68, 11, 153) ;
   color:white;
