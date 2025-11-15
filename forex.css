@@ -131,6 +131,9 @@ footer {
   justify-content: center;
   padding: 10px 10px;
 }
+.contact-left{
+  color: purple;
+}
 .social-icons{
   margin-top: 30px;
   display: flex;
@@ -155,4 +158,31 @@ hr {
   border: none;
   border-top: 2px solid #000;  /* line color */
   margin: 0;                   /* remove spacing */
+}
+@media (max-width: 768px) {
+  .container {
+    width: 90vw;       /* smaller width on mobile */
+    height: auto;      /* auto height */
+    margin-bottom: 5vh;
+  }
+
+  .amount input {
+    width: 70%;        /* full width for input */
+  }
+
+  .Exchange-currencyBtn {
+    width: 80%;        /* bigger, easier to tap */
+  }
+
+  .dropdown {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
