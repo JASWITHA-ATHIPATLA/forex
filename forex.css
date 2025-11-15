@@ -120,14 +120,39 @@ a:hover {
   background-color: purple;
   cursor: pointer;
 }
+
 footer {
   width: 100%;
-  height: 7vh;
-  color: white;
+  height: auto;
   background-color: rgb(218, 88, 247);
   position: static;
   bottom: 0;
   display: flex;
   justify-content: center;
   padding: 10px 10px;
+}
+.social-icons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-self: start;
+  left: 0%;
+}
+.social-icons a{
+  font-size: 30px;
+  margin-right:15px;
+  margin-bottom: 1rem;
+  color:#0f0e0e;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover{
+  color: #1d13d1;
+  transform: translateY(-5px);
+}
+hr {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #000;  /* line color */
+  margin: 0;                   /* remove spacing */
 }
